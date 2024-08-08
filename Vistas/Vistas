@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <title>Mascotas</title>
+        <link href="../CSS/Ejemplo.css" rel="stylesheet"> <!--vinculamos el HTML con CSS (o sea estilos,colores,etc)-->
+    </head>
+<body>
+    <header id="barra">
+    <!--  barra -->
+    <img  class="logopatita" src="https://static.vecteezy.com/system/resources/previews/009/344/672/original/dog-paw-free-png.png">
+    <nav>
+      <a href=""> Inicio </a>
+
+      <a href=""> Zona Norte</a>
+      <a href=""> Zona Este</a>
+      <a href=""> Zona Oeste</a>
+      <a href=""> Zona Sur</a>
+    </nav>
+</header>
+
+
+
+ <h1 class="titulo"> PATITAS</h1> <!--titulo de la WEB-->
+ <h4 class="porque" > ¿Por qué adoptar en vez de comprar? </h4>
+
+ <div class="Bienvenida">
+   
+    <img class="ImgInicio" src="https://e1.pngegg.com/pngimages/288/14/png-clipart-perritos-white-and-brown-dog-illustration-thumbnail.png" >
+    <h3 class="adoptando"> Adoptando estás salvando la vida de un animal rescatado. Cada perro adoptado deja su lugar para que ingrese otro y pueda ser recuperado en el refugio. </h3>
+    <img class="ImgInicio" src="https://static.vecteezy.com/system/resources/previews/009/366/808/original/cute-cat-cartoon-character-png.png" >
+    <h3> Adoptar es un acto de amor y de responsabilidad, por eso es necesario estar completamente seguros de que estamos capacitados y listos para tener un perro. Un animal de compañía dependerá toda su vida de nosotros.</h3> <!--Presentación de la web-->
+    
+</div>
+
+ <form class="registrate ">
+    <label> Nombre</label>
+    <input type=" text" name="Nombre">
+
+    <label for=" "> Apellido </label>
+    <input type="text" name=" Apellido">
+
+    <label for=" "> Numero de Telefono </label>
+    <input type="number" name=" Apellido">
+
+    <button id="boton"> Cancelar</button>
+    <input id="btn" type="submit" value="Enviar">
+
+  </form>
+  <footer>
+    <div class="contenedortdfooter ">
+  
+    <div class="mensajefin">
+      <img class="mensajefinfoto" src="https://static.vecteezy.com/system/resources/previews/009/344/672/original/dog-paw-free-png.png">
+      <h5> Gracias por confiar en "Patitas", sigamos creciendo.</h5>
+    </div>
+  
+    <div class="redessociales">
+      <h4> Redes Sociales.</h4>
+      <a href="https://www.instagram.com/luddmastro/" es target="_blanck"> <img class="instagram" src="../imagenes/instagram.png" alt="logo de instagram">
+        <a href="https://twitter.com/luddmastro" es target="_blanck"> <img  class="twitter" src="../imagenes/twitter.png" alt="logo de X">
+    </div>
+    <div class="autor">
+      <h4> Autora. </h4>
+     <h5> Realizado por Ludmila Mastroberti en el programa de Front-End de Chicas en Tecnologia.</h5>
+  
+    </div>
+  </div>
+  </footer>
+
+
+
+ 
+
+
+
+
+
+
+
+
+ </body>
